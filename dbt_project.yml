@@ -32,5 +32,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   facebook_ads:
-    +schema: facebook_ads
+  facebook_ads_insights:
     +materialized: table
+  facebook_ads-actions:
+    +materialized: view
