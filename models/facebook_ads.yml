@@ -1,0 +1,18 @@
+version: 2
+
+models:
+    - name: facebook_ads
+      description: Each record represents the daily performance of a Facebook ad account.
+      columns:
+          - name: date_start
+          - name: account_id
+          - name: account_name
+          - name: campaign_id
+          - name: campaign_name
+          - name: adset_id
+          - name: adset_name
+          - name: ad_id
+          - name: ad_name
+          - name: clicks
+          - name: impressions
+          - name: spend
